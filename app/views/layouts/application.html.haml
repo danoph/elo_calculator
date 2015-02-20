@@ -6,7 +6,15 @@
     = csrf_meta_tags
     = stylesheet_link_tag 'application'
     %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css", :rel => "stylesheet"}
-    
+    %meta{:content => "initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width", :name => "viewport"}
+    %meta{:content => "A layout example that shows off a\n    responsive product landing page.", :name => "description"}
+    %meta{:content => "Ace Ping Pong", :name => "apple-mobile-web-app-title"}
+    -#%link{:href => "img/loading.png", :rel => "apple-touch-startup-image"}
+    -#%link{:href => "img/app_icons/Icon76@2x.png", :rel => "apple-touch-icon"}
+    %meta{:content => "black", :name => "apple-mobile-web-app-status-bar-style"}
+    %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}
+    %meta{:content => "yes", :name => "mobile-web-app-capable"}
+
     = javascript_include_tag 'vendor/modernizr'
   %body
     %div.orange-bar
